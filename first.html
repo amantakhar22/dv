@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Data Visualization</title>
+	<link rel="stylesheet" href="main.css">
+	<script type="text/javascript" src="d3.min.js"></script>
+</head>
+<body>
+	
+HELLO!
+
+<script>
+	console.log("Hello");
+	d3.csv("Death_Rates1900-2013.csv", function(data){
+    console.log(data);
+   
+   /* var groupId = [];
+    var maxId = 0;
+    for (var i = 0; i < data.length; i++){
+    var item = data[i];
+
+    if (!groupId[item.id]){
+        groupId[item.id] = [];
+    }
+
+    groupId[item.id].push({year: item.iyear});
+
+    if (maxId < item.id){
+        maxId = item.id;
+    }
+};
+
+
+
+
+
+    var canvas = d3.select("body").append("svg")
+        .attr("width", 500)
+        .attr("height", 500)
+
+        canvas.selectAll("rect")
+        .data(data)
+        .enter()
+          .append("rect")
+          .attr("width",function(d){ return groupId[i].length})
+          .attr("height",50)
+          .attr("y",50)
+          .attr("fill","blue");
+
+     */
+
+
+	})
+</script>
+
+
+</body>
+</html>
